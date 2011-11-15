@@ -798,7 +798,7 @@ void setup() {
   vw_set_tx_pin(IR_RF_pin);
   vw_set_rx_pin(-1);
   vw_set_ptt_pin(-1);  
-  vw_setup(2000);	           // Bits per sec   
+  vw_setup(3000);	           // Bits per sec   
   vw_rx_stop();
   
   // set up the LCD's number of columns and rows: 
@@ -819,7 +819,11 @@ void setup() {
   if (Contrast_HEX  > 16){ EEPROM.write(1, 3);  Contrast_HEX  = 3 ;}
   if (BackLight_HEX > 16){ EEPROM.write(2, 10); BackLight_HEX = 10;}
   if (Protocol > 3)      { EEPROM.write(3, 1);  Protocol      = 1 ;}
-  
+ /* 
+  EEPROM.write(1, 3);  Contrast_HEX  = 3 ;
+  EEPROM.write(2, 10); BackLight_HEX = 10;
+  EEPROM.write(3, 1);  Protocol      = 1 ;
+ */ 
   LCD_Contrast  =  Contrast_HEX*4; 
   if (BackLight_HEX == 16) LCD_BackLight = 255;
   else LCD_BackLight = BackLight_HEX*16; 
