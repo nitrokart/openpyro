@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PyroIgnitionControl RU 1.4\n"
+"POT-Creation-Date: 2011-11-15 19:15\n"
+"PO-Revision-Date: 2011-11-16 01:44+0200\n"
+"Last-Translator: Gordeev Andrey <gordeev@openpyro.com>\n"
+"Language-Team: www.openpyro.com <gordeev@openpyro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Basepath: D:\\pult\\OpenPyro Duino\\openpyro\\ISS for PyroIgnitionControl\\PyroIgnitionControl_V1.4\\locale\\ru\\LC_MESSAGESX-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: D:\\pult\\OpenPyro Duino\\openpyro\\ISS for PyroIgnitionControl\\PyroIgnitionControl_V1.4\\locale\\ru\\LC_MESSAGES\n"
+
+msgid " ms"
+msgstr "мсек"
+
+msgid ""
+"\"AAAA\" /*\n"
+"\"BBBB\" /*\n"
+"\"CCDD\" /*\n"
+"\"EEEE\" /*\n"
+"* * * * \n"
+"!AVBHCVDVEV!\n"
+"#lbl1:A:C{}[16,13]#\n"
+"#lbl2:C:C{}[16,13]#\n"
+"#jvld1:B:N{}[30,31]#\n"
+"#jvld2:B:N{}[30,31]#\n"
+"#jvld3:B:N{}[30,31]#\n"
+"#jvld4:B:N{}[30,31]#\n"
+"#jvld5:B:N{}[30,31]#\n"
+"#jvld6:B:N{}[30,31]#\n"
+"#jvld7:B:N{}[30,31]#\n"
+"#jvld8:B:N{}[30,31]#\n"
+"#jvld9:B:N{}[30,31]#\n"
+"#jvld10:B:N{}[30,31]#\n"
+"#jvld11:B:N{}[30,31]#\n"
+"#jvld12:B:N{}[30,31]#\n"
+"#jvld13:B:N{}[30,31]#\n"
+"#jvld14:B:N{}[30,31]#\n"
+"#jvld15:B:N{}[30,31]#\n"
+"#lbl4:E:C{}[16,13]#\n"
+"#lbl3:D:C{}[16,13]#\n"
+msgstr ""
+"\"AAAA\" /*\n"
+"\"BBBB\" /*\n"
+"\"CCDD\" /*\n"
+"\"EEEE\" /*\n"
+"* * * * \n"
+"!AVBHCVDVEV!\n"
+"#lbl1:A:C{}[16,13]#\n"
+"#lbl2:C:C{}[16,13]#\n"
+"#jvld1:B:N{}[30,31]#\n"
+"#jvld2:B:N{}[30,31]#\n"
+"#jvld3:B:N{}[30,31]#\n"
+"#jvld4:B:N{}[30,31]#\n"
+"#jvld5:B:N{}[30,31]#\n"
+"#jvld6:B:N{}[30,31]#\n"
+"#jvld7:B:N{}[30,31]#\n"
+"#jvld8:B:N{}[30,31]#\n"
+"#jvld9:B:N{}[30,31]#\n"
+"#jvld10:B:N{}[30,31]#\n"
+"#jvld11:B:N{}[30,31]#\n"
+"#jvld12:B:N{}[30,31]#\n"
+"#jvld13:B:N{}[30,31]#\n"
+"#jvld14:B:N{}[30,31]#\n"
+"#jvld15:B:N{}[30,31]#\n"
+"#lbl4:E:C{}[16,13]#\n"
+"#lbl3:D:C{}[16,13]#\n"
+
+msgid "%d"
+msgstr "%d"
+
+msgid "%s potentielle Fehler gefunden !"
+msgstr "%s потенциальных ошибок найдено!"
+
+msgid "&Cancel"
+msgstr "&Cancel"
+
+msgid "&Export"
+msgstr "&Export"
+
+msgid "&P"
+msgstr "&P"
+
+msgid "&View only"
+msgstr "&View only"
+
+msgid "(*.csv) CSV Datei|*.csv"
+msgstr "(*.csv) CSV Данные |*.csv"
+
+msgid "+ Bodenelement"
+msgstr "+ Наземный элемент"
+
+msgid "+ Cake"
+msgstr "+ Торт"
+
+msgid "+ Facher 5x"
+msgstr "+ Предмет 5x"
+
+msgid "+ Facher 6x"
+msgstr "+ Предмет 6x"
+
+msgid "+ Facher 8x "
+msgstr "+ Предмет 8x"
+
+msgid "+ Rack 10x 50mm "
+msgstr "+ Связка 10x 50мм "
+
+msgid "+ Rack 10x 65mm"
+msgstr "+ Связка 10x 65мм"
+
+msgid "+ Rack 5x 100mm"
+msgstr "+ Связка 5x 100мм"
+
+msgid "+ Rack 5x 125mm"
+msgstr "+ Связка 5x 125мм"
+
+msgid "+ Rack 5x 75mm"
+msgstr "+ Связка 5x 75мм"
+
+msgid ".pdf|*.pdf"
+msgstr ".pdf|*.pdf"
+
+msgid "1 sek"
+msgstr "1 сек"
+
+msgid "10 sek"
+msgstr "10 сек"
+
+msgid "15 sek"
+msgstr "15 сек"
+
+msgid "20 sek"
+msgstr "20 сек"
+
+msgid "200 ms"
+msgstr "200 мсек"
+
+msgid "30 sek"
+msgstr "30 сек"
+
+msgid "5 sek"
+msgstr "5 сек"
+
+msgid "500 ms"
+msgstr "500 мсек"
+
+msgid "60 sek"
+msgstr "60 сек"
+
+msgid "Aktivieren"
+msgstr "Включить"
+
+msgid "All supporded Filetypes|*.WAV;*.MP3;*.MP2;*.MP1;"
+msgstr "Все поддерживаемые  файлы |*.WAV;*.MP3;*.MP2;*.MP1;"
+
+msgid "All supporded Filetypes|*.zpl;*.hfl;*.rl;"
+msgstr "Все поддерживаемые  файлы |*.zpl;*.hfl;*.rl;"
+
+msgid "Allgemein"
+msgstr "Основные"
+
+msgid "Anzahl der Cues: "
+msgstr "Количество каналов: "
+
+msgid "Anzahl verwendeter Module: "
+msgstr "Количество модулей: "
+
+msgid "Anzeige der Zeit seit erster Cueauslosung"
+msgstr "Отображать время с первого воспламенителя"
+
+msgid "Anzeige der vergangenen Zeit nach Cueauslosung"
+msgstr "Отображать время с последнего воспламенителя"
+
+msgid "Anzeige:"
+msgstr "Отображение:"
+
+msgid "Arial,Helvetica"
+msgstr "Arial,Helvetica"
+
+msgid "Auf Doppelbelegung prufen"
+msgstr "Проверять каналы на многократное использование"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Bearbeiten:"
+msgstr "Редактировать"
+
+msgid "Beschreibung"
+msgstr "Заряд"
+
+msgid "Beschreibung:"
+msgstr "Заряд"
+
+msgid "Bezeichnung"
+msgstr "Наименование"
+
+msgid "Bezeichnung:"
+msgstr "Наименование:"
+
+msgid "Bitte Anfangskanal eingeben"
+msgstr "Введите начальный канал"
+
+msgid "Bitte Anzahl der Plätze angeben"
+msgstr "Введите количество элементов"
+
+msgid "Bitte Position eingeben"
+msgstr "Введите позицию"
+
+msgid "Bitte Slave ID eingeben"
+msgstr "Введите номер модуля"
+
+msgid "Bitte den gewünschte Winkel eingeben:"
+msgstr "Введите угол наклона"
+
+msgid "Bitte die gewünschte Rackbezeichnung eingeben:"
+msgstr "Введите номер связки:"
+
+msgid "CSV (Comma delimited)"
+msgstr "CSV (разделитель запятая)"
+
+msgid "CSV Import"
+msgstr "Импорт из CSV файла"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Colum-Zeile:"
+msgstr "Столбец-Строка"
+
+msgid "ComPort:"
+msgstr "Номер COM порта:"
+
+msgid "ComPort: %s konnte nicht geoffnet werden ! Bitte korrigieren sie die Einstellungen"
+msgstr "Не возможно открыть ComPort %s ! Проверти  настройки"
+
+msgid "Connect"
+msgstr "Соединение"
+
+msgid "Created:"
+msgstr "Создать"
+
+msgid "Csv-Import: "
+msgstr "Импорт-CSV "
+
+msgid "Cue"
+msgstr "Команда"
+
+msgid "Cue 1"
+msgstr "Ком. 1"
+
+msgid "Cue 1 - 8 "
+msgstr "Команда 1 - 8 "
+
+msgid "Cue 10"
+msgstr "Ком. 10"
+
+msgid "Cue 11"
+msgstr "Ком. 11"
+
+msgid "Cue 12"
+msgstr "Ком. 12"
+
+msgid "Cue 13"
+msgstr "Ком. 13"
+
+msgid "Cue 14"
+msgstr "Ком. 14"
+
+msgid "Cue 15"
+msgstr "Ком. 15"
+
+msgid "Cue 16"
+msgstr "Ком. 16"
+
+msgid "Cue 17"
+msgstr "Канал17"
+
+msgid "Cue 17 - 24 "
+msgstr "Команда 17 - 24 "
+
+msgid "Cue 18"
+msgstr "Ком. 18"
+
+msgid "Cue 19"
+msgstr "Ком. 19"
+
+msgid "Cue 2"
+msgstr "Ком. 2"
+
+msgid "Cue 20"
+msgstr "Ком. 20"
+
+msgid "Cue 21"
+msgstr "Ком. 21"
+
+msgid "Cue 22"
+msgstr "Ком. 22"
+
+msgid "Cue 23"
+msgstr "Ком. 23"
+
+msgid "Cue 24"
+msgstr "Ком. 24"
+
+msgid "Cue 25"
+msgstr "Ком. 25"
+
+msgid "Cue 25 - 32"
+msgstr "Команда 25 - 32"
+
+msgid "Cue 26"
+msgstr "Ком. 26"
+
+msgid "Cue 27"
+msgstr "Ком. 27"
+
+msgid "Cue 28"
+msgstr "Ком. 28"
+
+msgid "Cue 29"
+msgstr "Ком. 29"
+
+msgid "Cue 3"
+msgstr "Ком. 3"
+
+msgid "Cue 30"
+msgstr "Ком. 30"
+
+msgid "Cue 31"
+msgstr "Ком. 31"
+
+msgid "Cue 32"
+msgstr "Ком. 32"
+
+msgid "Cue 4"
+msgstr "Ком. 4"
+
+msgid "Cue 5"
+msgstr "Ком. 5"
+
+msgid "Cue 6"
+msgstr "Ком. 6"
+
+msgid "Cue 7"
+msgstr "Ком. 7"
+
+msgid "Cue 8"
+msgstr "Ком. 8"
+
+msgid "Cue 9"
+msgstr "Ком. 9"
+
+msgid "Cue 9 - 16 "
+msgstr "Команда 9 - 16 "
+
+msgid "Cue Nr."
+msgstr "Команда №"
+
+msgid "Cue bearbeiten:"
+msgstr "Редактировать канал"
+
+msgid "Cue hinzufügen:"
+msgstr "Добавить канал"
+
+msgid "Cue:"
+msgstr "Команда"
+
+msgid "Cue: "
+msgstr "Редактор сценария"
+
+msgid "CueList"
+msgstr "Сценарий"
+
+msgid "Cuelinien anzeigen"
+msgstr "Показать канал"
+
+msgid "Cues: "
+msgstr "Команды: "
+
+msgid "Cues: 0"
+msgstr "Команды: 0"
+
+msgid "Das Projekt existiert bereits. Möchten Sie die Dateien uberschrieben ?"
+msgstr "Проект уже существует, вы хотите перезаписать его?"
+
+msgid "Data Interchange Format"
+msgstr "Формат обмена данными"
+
+msgid "Data was copied to clipboard!"
+msgstr "Данные были скопированы в буфер обмена!"
+
+msgid "Datei"
+msgstr "Файл"
+
+msgid "Datei konnte nicht geoffnet werden"
+msgstr "Ошибка при открытии файла"
+
+msgid "Datenbank"
+msgstr "База данных"
+
+msgid "Datenbank:"
+msgstr "База данных"
+
+msgid "Datenbankeintrag"
+msgstr "Редактор заряда"
+
+msgid "Dauer"
+msgstr "Длинна"
+
+msgid "Dauer:"
+msgstr "Длинна"
+
+msgid "Der Cue %s wurde in Part %s bereits belegt !"
+msgstr "Канал № %s уже используется в  части №  %s !"
+
+msgid "Der Kanal %s ist auf Slave %s doppelt belegt !"
+msgstr "Канал № %s уже используется в модуле №  %s !"
+
+msgid "Der Kanal %s wurde für Slave %s bereits belegt !"
+msgstr "Канал № %s уже используется в модуле №  %s !"
+
+msgid "Die Datei existiert bereits möchten sie die Datei überschrieben ?"
+msgstr "Файл уже существует, вы хотите перезаписать его?"
+
+msgid "Dunkelstellen anzeigen"
+msgstr "Показать темные места"
+
+msgid "E&xport formats:"
+msgstr "Формат E&xport "
+
+msgid "Easy Fire"
+msgstr "Простой Запуск"
+
+msgid "Effekt"
+msgstr "Заряд"
+
+msgid "Effekt entfernen"
+msgstr "Удалтить заряд"
+
+msgid "Effekt:"
+msgstr "Заряд"
+
+msgid "Effektbeginn erhöhen"
+msgstr "Увеличение задержки"
+
+msgid "Effektbeginn erhohen um x"
+msgstr "Увеличение задержки по x"
+
+msgid "Effektbeginn verringern"
+msgstr "Уменьшение задержки"
+
+msgid "Effektbeginn verringern um x"
+msgstr "Уменьшение задержки по x"
+
+msgid "Effektbeginn:"
+msgstr "Начало"
+
+msgid "Effektdatenbank"
+msgstr "База данных зарядов"
+
+msgid "Effektdauer:"
+msgstr "Длинна"
+
+msgid "Ein oder mehrere Elemente in der Zündliste entsprechen nicht dem korrekten Format"
+msgstr "Одна или несколько записей в неправильном формате"
+
+msgid "Einstellungen"
+msgstr "Настройки"
+
+msgid "Einstellungen: "
+msgstr "Настройки"
+
+msgid "Enter password:"
+msgstr "Ввести пароль:"
+
+msgid "Erhöhen"
+msgstr "Увеличить"
+
+msgid "Es muss mindestens der Effektbeginn angegeben werden"
+msgstr "Вы должны выбрать хотя бы один заряд"
+
+msgid "Es wurde kein Zündplugin gefunden"
+msgstr "Не найден plugin запуска"
+
+msgid "Excel Export"
+msgstr "Экспорт в Excel"
+
+msgid "Excel Files"
+msgstr "Файл Excel"
+
+msgid "Export &to file"
+msgstr "Экспорт в &to файл"
+
+msgid "Exporting DataSet"
+msgstr "Экспорт DataSet"
+
+msgid "Falsche Plugin Version ! Benötigte Version %s"
+msgstr "Неправильная версия plugin! Вы должны использовать версию %s"
+
+msgid "Falsches Passwort"
+msgstr "Неправильный пароль"
+
+msgid "False"
+msgstr "False"
+
+msgid "Farben: "
+msgstr "Цвет"
+
+msgid "Fehler beim auslesen der Datei !"
+msgstr "Ошибка при обработке файла!"
+
+msgid "Fehler beim laden der Datei \"%s\""
+msgstr "Ошибка при открытии файла \"%s\""
+
+msgid "Fehler beim speichern der Datei \"%s\""
+msgstr "Ошибка при сохранении файла \"%s\""
+
+msgid "Fehler beim suchen der Colums !"
+msgstr "Ошибка при поиске Столбца!"
+
+msgid "Felder suchen"
+msgstr "Поле поиска"
+
+msgid "Fenster"
+msgstr "Окна"
+
+msgid "Fenster anordnen"
+msgstr "Упорядочить окна"
+
+msgid "Fenster: "
+msgstr "Дополнительные окна"
+
+msgid "FireNextCue"
+msgstr "Запуск Следующей Команды"
+
+msgid "Facher hinzufugen"
+msgstr "Добавить предмет"
+
+msgid "Gemessen an der letzten Zundung"
+msgstr "Вычисления с последнего запуска"
+
+msgid "Geringster Abstand zwischen zwei Zündungen: "
+msgstr "Минимальный интервал между запусками двух каналов: "
+
+msgid "Geschossene Cues markieren"
+msgstr "Пометить запушенные каналы"
+
+msgid "Globale Verzögerung: "
+msgstr "Глобальная задержка: "
+
+msgid "Globale Verzogerung: (S.MS)"
+msgstr "Глобальная задержка: (С.МС)"
+
+msgid "Große:"
+msgstr "Размер"
+
+msgid "HTML Documents"
+msgstr "Документ HTML"
+
+msgid "Handfire"
+msgstr "Ручная стрельба"
+
+msgid "Handfire Listenoptionen: "
+msgstr "Список настройки ручной стрельбы"
+
+msgid "Hersteller"
+msgstr "Производитель"
+
+msgid "Hersteller:"
+msgstr "Поставщик"
+
+msgid "Hinweis"
+msgstr "Предупреждение"
+
+msgid "Hinweis: Anderungen werden erst beim Neustart der Software aktiv !"
+msgstr "Вы должны перезапустить программу для применения изменений !"
+
+msgid "Hochformat"
+msgstr "Высокий формат"
+
+msgid "Id muss zwischen 1 und 30 liegen"
+msgstr "Id должен находится между 1 и 30"
+
+msgid "Importfelder: "
+msgstr "Импортировать поля:"
+
+msgid "In Show springen"
+msgstr "Перейти в позицию..."
+
+msgid "KNr: --"
+msgstr "KNr: --"
+
+msgid "Kaliber"
+msgstr "Калибр"
+
+msgid "Kaliber:"
+msgstr "Калибр"
+
+msgid "Kanal muss zwischen 1 und 99 liegen"
+msgstr "Канал должен находится между 1 и 99"
+
+msgid "Kanal:"
+msgstr "№ Канала"
+
+msgid "Kanal: "
+msgstr "Канал"
+
+msgid "Kanalnummern setzen"
+msgstr "Выберете номер канала"
+
+msgid "Kategorie"
+msgstr "Категория"
+
+msgid "Kategorie:"
+msgstr "Категория"
+
+msgid "Kein Eintrag ausgewählt !"
+msgstr "Не выбрана команда !"
+
+msgid "Keine gültige Zahl"
+msgstr "Недопустимое число"
+
+msgid "Konstant gemessen an den eingetragenen Zeiten"
+msgstr "Вычисления констант по списку времени"
+
+msgid "Linienhöhe der Cuelines in %"
+msgstr "Высота канала (%)"
+
+msgid "Liste importieren"
+msgstr "Импортировать список"
+
+msgid "Listenoptionen: "
+msgstr "Список настроек"
+
+msgid "Loschen"
+msgstr "Удалить"
+
+msgid "Modus:"
+msgstr "Режим:"
+
+msgid "Musik starten wenn Cue1 in Part1 gedruckt wurde"
+msgstr "Запускать музыку по первой команде запуска при ручной стрельбе"
+
+msgid "Musik: "
+msgstr "Музыка"
+
+msgid "Möchten Sie die Änderungen im Projekt speichern ?"
+msgstr "Сохранить проект перед выходом из программы?"
+
+msgid "Mörser:"
+msgstr "Мортира"
+
+msgid "Nachste Zundung: 00:00.000"
+msgstr "Следующий запуск: 00:00.000"
+
+msgid "Nächste Zündung: 00:00.000"
+msgstr "Следующий запуск: 00:00.000"
+
+msgid "Negative Zündzeiten nicht möglich"
+msgstr "Отрицательное значение не допускается"
+
+msgid "Neues Projekt"
+msgstr "Новый проект"
+
+msgid "Nicht anzeigen"
+msgstr "Не показывать"
+
+msgid "Nicht mit der Anlage verbunden ! Soll versucht werden die Verbindung herzustellen ?"
+msgstr "Не связи с системой запуска! Дать возможность программному обеспечению выбрать порт  подключения самостоятельно?"
+
+msgid "Nr."
+msgstr "№ п.п."
+
+msgid "Nur manuelle Verbindung (Einstellungen -> Connect)"
+msgstr "Соединение в ручную (Настройки -> Соединение)"
+
+msgid "Nächste Zündung: "
+msgstr "Следующий запуск: "
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Optionen"
+msgstr "Настройки"
+
+msgid "Output "
+msgstr "Соединение"
+
+msgid "Part 1"
+msgstr "Часть 1"
+
+msgid "Part 2"
+msgstr "Часть 2"
+
+msgid "Part 3"
+msgstr "Часть 3"
+
+msgid "Part: "
+msgstr "Часть сценария"
+
+msgid "Passwort eingeben:"
+msgstr "Ввести пароль: "
+
+msgid "Passwort nutzen"
+msgstr "Использовать пароль безопасности запуска"
+
+msgid "Passwort stimmt nicht überein ! Bitte erneut eingeben"
+msgstr "Пароли которые вы ввели не совпадают! Повторите ввод."
+
+msgid "Passwort wiederholen:"
+msgstr "Подтвердить пароль:"
+
+msgid "Passwortfeld darf nicht leer bleiben !"
+msgstr "Поле Пароль не может быть пустым!"
+
+msgid "Pdf Export"
+msgstr "Экспорт в PDF"
+
+msgid "Platz bereits belegt !"
+msgstr "Уже установлен!"
+
+msgid "Play/Pause"
+msgstr "Пуск/Пауза"
+
+msgid "Position"
+msgstr "Позиция"
+
+msgid "Position bereits gesetzt"
+msgstr "Позиция уже установлена"
+
+msgid "Position setzen"
+msgstr "Установить позицию"
+
+msgid "Position:"
+msgstr "Позиция"
+
+msgid "Processing..."
+msgstr "Обработка..."
+
+msgid "Programm beenden"
+msgstr "Выход из программы"
+
+msgid "PyroIgnitionControl V1.4"
+msgstr "PyroIgnitionControl RUS V1.4 (перевод команды www.OpenPyro.com)"
+
+msgid "Programm kann nicht beendet werden solange die Software scharfgeschaltet ist !"
+msgstr "Программа не может быть закрыта когда она находится в боевом режиме!"
+
+msgid "Projekt laden"
+msgstr "Загрузить проект"
+
+msgid "Projekt speichern"
+msgstr "Сохранить проект"
+
+msgid "Querformat"
+msgstr "Пейзаж"
+
+msgid "Rack Nr.:"
+msgstr "Связка №"
+
+msgid "Rack Organizer"
+msgstr "Органайзер Связок"
+
+msgid "Rack einfügen"
+msgstr "Вставить Связку"
+
+msgid "Rack hinzufugen"
+msgstr "Добавить Связку"
+
+msgid "Racknummer"
+msgstr "Номер связки"
+
+msgid "Racknummer setzen"
+msgstr "Установить номер связки"
+
+msgid "Racks verwalten"
+msgstr "Управление связками"
+
+msgid "Reserve: "
+msgstr "Каналы резерва"
+
+msgid "Rich Text Format"
+msgstr "Формат Rich Text"
+
+msgid "SID: --"
+msgstr "SID: --"
+
+msgid "SYLK Files"
+msgstr "Файл SYLK"
+
+msgid "Save document"
+msgstr "Сохранить документ"
+
+msgid "Selectline:"
+msgstr "Выбранное"
+
+msgid "Set Cue:"
+msgstr "Редактор команды"
+
+msgid "Show"
+msgstr "Сценарий"
+
+msgid "Show Nr."
+msgstr "Часть Сценария"
+
+msgid "Show Part:"
+msgstr "Часть Сценария"
+
+msgid "Show anhalten"
+msgstr "Пауза в сценарии"
+
+msgid "Show fortsetzen"
+msgstr "Остановить сценарий"
+
+msgid "Show uberprufen"
+msgstr "Проверить сценарий"
+
+msgid "Showlange: 00:00.000"
+msgstr "Длинна: 00:00.000"
+
+msgid "Showlänge: "
+msgstr "Длинна: "
+
+msgid "Sicherheitshinweis"
+msgstr "Указателе безопасности"
+
+msgid "Sicherheitspasswort"
+msgstr "Пароль безопасности"
+
+msgid "Sicherheitspasswort: "
+msgstr "Пароль безопасности"
+
+msgid "Sie müssen erst einen Song laden"
+msgstr "Сначала нужно загрузить звуковой файл "
+
+msgid "Slave"
+msgstr "Модуль"
+
+msgid "Slave ID:"
+msgstr "№ Модуля"
+
+msgid "Slave IDs setzen"
+msgstr "Установить № модуля"
+
+msgid "Slave:"
+msgstr "Модуль"
+
+msgid "Software scharfschalten"
+msgstr "Вкл. \"Боевой режим\""
+
+msgid "Sonstiges: "
+msgstr "Остальное"
+
+msgid "Spectrum"
+msgstr "Звуковая дорожка"
+
+msgid "Spectrum:"
+msgstr "Звук"
+
+msgid "Speichern"
+msgstr "Сохранить"
+
+msgid "Sprache auswählen"
+msgstr "Выбор языка"
+
+msgid "St."
+msgstr "St."
+
+msgid "Start Show"
+msgstr "Запуск сценария"
+
+msgid "Start Show: "
+msgstr "Запуск сценария"
+
+msgid "Status: ComPort %s konnte nicht geöffnet werden !"
+msgstr "Статус: Не могу открыть ComPort %s !"
+
+msgid "Status: Mit ComPort %s verbunden"
+msgstr "Статус: Соединен с ComPort %s "
+
+msgid "Status: Nicht verbunden"
+msgstr "Статус: нет связи"
+
+msgid "Step Cues:"
+msgstr "Последовательная стрельба"
+
+msgid "Steppautomatik:"
+msgstr "Автоматический шаг:"
+
+msgid "Stop"
+msgstr "Стоп"
+
+msgid "Suche: "
+msgstr "Поиск"
+
+msgid "Text (Tab delimited)"
+msgstr "Текст (разделение Tab)"
+
+msgid "Text Files"
+msgstr "Текстовый Файл"
+
+msgid "Time-Marks"
+msgstr "Маркер времени"
+
+msgid "Timeline:"
+msgstr "Позиция"
+
+msgid "Timemarks:"
+msgstr "Маркер"
+
+msgid "Trennzeichen:"
+msgstr "Разделитель:"
+
+msgid "True"
+msgstr "True"
+
+msgid "Verbindungsoptionen: "
+msgstr "Настройки подключения"
+
+msgid "Verbindungsversuch beim scharfschalten der Software"
+msgstr "Соединение переводит программу в боевой режим"
+
+msgid "Vergangene Zeit:"
+msgstr "Прошло времени: "
+
+msgid "Vergangene Zeit: "
+msgstr "Прошло времени: "
+
+msgid "Vergangene Zeit: 00:00.000"
+msgstr "Прошло времени: 00:00.000"
+
+msgid "Verringern"
+msgstr "Уменьшить"
+
+msgid "Verteiler ID:"
+msgstr "№ модуля"
+
+msgid "Verzogerung"
+msgstr "Задержка"
+
+msgid "Verzogerung:"
+msgstr "Задержка"
+
+msgid "Volume:"
+msgstr "Громкость:"
+
+msgid "Winkel"
+msgstr "Угол"
+
+msgid "Winkel setzen"
+msgstr "Установить угол"
+
+msgid "Winkel:"
+msgstr "Угол"
+
+msgid "Word Documents"
+msgstr "Документ Word"
+
+msgid "Zeige Show Informationen"
+msgstr "Показать информацию о сценарии"
+
+msgid "Zeit: +x"
+msgstr "Время: +x"
+
+msgid "Zoom In"
+msgstr "Увеличить"
+
+msgid "Zoom Out"
+msgstr "Уменьшить"
+
+msgid "Zu Position wechseln"
+msgstr "Перейти в позицию"
+
+msgid "Zurucksetzen"
+msgstr "Сброс"
+
+msgid "Zundanlage"
+msgstr "Система запуска"
+
+msgid "Zundzeitpunkt anzeigen:"
+msgstr "Показать время пуска:"
+
+msgid "Zundzeitpunkt:"
+msgstr "Время пуска"
+
+msgid "dd.MM.yyyy"
+msgstr "ДД.ММ.ГГГГ"
+
+msgid "hh:mm"
+msgstr "чч:мм"
+
+msgid "hh:mm dd.MM.yyyy"
+msgstr "чч:мм ДД.ММ.ГГГГ"
+
+msgid "Übersicht"
+msgstr "Обзор"
+

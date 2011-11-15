@@ -12,7 +12,7 @@ OpenPyro Field box 8 channels
 // include the library code:
 
 #include <VirtualWire.h>
-#include <RCSwitch.h>
+//#include <RCSwitch.h>
 
 //---------------------------------------------------------------------------
 //The declaration of constants
@@ -68,7 +68,7 @@ unsigned long RC_Code_16 =0;
     uint8_t RF_RX_Buf[VW_MAX_MESSAGE_LEN];
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
 
-RCSwitch mySwitch = RCSwitch();
+//RCSwitch mySwitch = RCSwitch();
 //---------------------------------------------------------------------------
 //The declaration of the user functions
 void Fire_CH (unsigned char CH);
@@ -160,12 +160,12 @@ void setup(){
   vw_set_ptt_pin (-1); 
   vw_set_tx_pin (-1);
   vw_set_rx_pin (RF_pin);  
-  vw_setup(2000);	 // Bits per sec   
+  vw_setup(1000);	 // Bits per sec   
   vw_rx_start();         // Start the receiver PLL running
   
 
   
-    mySwitch.enableReceive(0, RC_Decode);
+//    mySwitch.enableReceive(0, RC_Decode);
 
   // Configure the ports of the microcontroller
   pinMode(RX_RS_pin, INPUT);    // Set up to enter for UART - RX.
@@ -218,8 +218,19 @@ void loop(){
    }  
    
    // Reception to 433.92 using WirtualVire
-   if (vw_get_message( RF_RX_Buf, &buflen)){
-      RF_Rx_Decode();
-   }
+//   if (vw_get_message( RF_RX_Buf, &buflen)){
+//      RF_Rx_Decode();
+//   }
+   
+  if (vw_have_message()){
+    vw_get_message( RF_RX_Buf, &buflen);
+    RF_Rx_Decode();
+    for (i=0;i<buflen;i++)
+    {
+      Serial.print(RF_RX_Buf[i],DEC);
+      Serial.print(" ");
+    }
+    Serial.println(" ");
+  } 
 }
 //--------------------------------------------------------------------------- 
