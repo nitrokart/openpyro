@@ -1,6 +1,6 @@
 /*
 OpenPyro Transmitter 1024 channels
-   Version: 0.1.4.20
+   Version: 0.2.4.21
    Release: 26.08.2011
    License: GPLv3  
    Autor:   Gordeev Andrey Vladimirovich (OpenPyro)   
