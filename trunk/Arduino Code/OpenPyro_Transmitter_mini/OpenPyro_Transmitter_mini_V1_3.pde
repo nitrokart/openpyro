@@ -1,7 +1,7 @@
 /*
-OpenPyro Transmitter light
-   Version: 0.2.4.21
-   Release: 19.11.2011
+OpenPyro Transmitter mini (SuperbFire protocol only)
+   Version: 0.2.7.28
+   Release: 15.05.2012
    License: GPLv3
    Autor:   Gordeev Andrey Vladimirovich (OpenPyro)
    Autor e-mail:  gordeev@openpyro.com
@@ -10,26 +10,22 @@ OpenPyro Transmitter light
 
 //---------------------------------------------------------------------------
 // include the library code:
-
-#include <VirtualWire.h>
 #include <RCSwitch.h>
 //---------------------------------------------------------------------------
 //The declaration of constants
-
-#define Max_Adress      30
+#define Max_Adress      32
 #define Max_CH          32
 
 #define CH_In_Bank      8
 #define Max_Bank        4 //(Max_CH/CH_In_Bank )
-#define RC_Begin_Code   5327920
-#define time_Bat_test   1000  //
-#define time_Key_ask    10    //
+
 #define USART_USB_RATE  9600  //
 #define USART_BYTE_RS_Usec  11000000/USART_USB_RATE //
-#define TX_RX_pin       13   //
+
 #define RF_pin          12   //
 
-unsigned char Adress  = 1;   //
+#define TX_LED_pin      13   //
+
 unsigned char Bank    = 0;   //
 unsigned char Units   = 0;
 unsigned char rx_bayt = 0;
@@ -37,17 +33,51 @@ unsigned char rx_count= 0;
 unsigned char CH_rx   = 0;
 unsigned char Adress_rx=1;
 unsigned char CRC8    = 0;
-unsigned char CRC     = 0;
-unsigned char F_Key   = 0;
+
 char i_ = 0;
-unsigned long msNow        = 0;
+
 unsigned long RC_Code =0;
 unsigned char Protocol = 0;
 
-uint8_t RF_TX_Buf[3];       // Buffer RF 433.92 МГц.
-
 #define Prot_C       5     // The number of protocol bits
 unsigned char Prot_pin [Prot_C] = { 14, 15, 16, 17, 18};
+
+unsigned long Unit_Code[Max_Adress] ={
+0b000110100111100100010000, 
+0b001110100111100100110000, 
+0b011110100111100101110000,
+0b001010100111100101010000, 
+0b100010100111100110000000, 
+0b110010100111100111000000, 
+0b111010100111100111100000, 
+0b101010100111100110100000, 
+0b101110100111100110110000, 
+0b110110100111100111010000,
+
+0b010010100111100101000000, 
+0b011010100111100101100000,
+
+0b000110101111100100010000, 
+0b001110101111100100110000, 
+0b011110101111100101110000,
+0b001010101111100101010000, 
+0b100010101111100110000000, 
+0b110010101111100111000000, 
+0b111010101111100111100000, 
+0b101010101111100110100000, 
+0b101110101111100110110000, 
+0b110110101111100111010000,
+
+0b000110110111100100010000, 
+0b001110110111100100110000, 
+0b011110110111100101110000,
+0b001010110111100101010000, 
+0b100010110111100110000000, 
+0b110010110111100111000000, 
+0b111010110111100111100000, 
+0b101010110111100110100000, 
+0b101110110111100110110000, 
+0b110110110111100111010000 };
 
 RCSwitch mySwitch = RCSwitch();
 //---------------------------------------------------------------------------
@@ -57,9 +87,7 @@ void Rx_Decode();
 void RF_Send(unsigned char rf_ch);
 //---------------------------------------------------------------------------
 void RF_Send(unsigned char rf_ch){
-  if (Protocol == 0)   mySwitch.setRepeatTransmit(6);
-  else    mySwitch.setRepeatTransmit(3);
-  RC_Code = RC_Begin_Code+rf_ch+((Adress-1)*16);
+  RC_Code = Unit_Code[Adress_rx-1]+rf_ch ;
   mySwitch.send(RC_Code,24);
 }
 //---------------------------------------------------------------------------
@@ -90,41 +118,28 @@ void Rx_Decode(){ //
 //---------------------------------------------------------------------------
 void Fire(){
   if (CH_rx > Max_CH) return;
-
-  //Sending of the data through RS-485 (OpenPyro Protocol)
-  CRC =  Adress_rx + 128;
-  RF_TX_Buf[0] = CRC;
-  Serial.print( CRC , BYTE);
-  CRC = CRC + CH_rx;
-  RF_TX_Buf[1] = CH_rx;
-  Serial.print( CH_rx , BYTE);
-  CRC = CRC & 127;
-  RF_TX_Buf[2] = CRC;
-  Serial.print( CRC , BYTE);
-  
+  digitalWrite(TX_LED_pin, HIGH);
   if       (digitalRead(Prot_pin[0]) == 0) Protocol =0;
   else if  (digitalRead(Prot_pin[1]) == 0) Protocol =1;
   else                                     Protocol =2;
-  
 
   switch (Protocol){
     case 0:
-           if (CH_rx<=12) RF_Send(CH_rx);
+            mySwitch.setRepeatTransmit(16);
+            RF_Send(1);
     break;
     case 1:
             Bank = (CH_rx-1) / CH_In_Bank;
-            Units = CH_rx - Bank*CH_In_Bank;            
-            
+            Units = CH_rx - Bank*CH_In_Bank;
+            mySwitch.setRepeatTransmit(6);
             RF_Send(Bank+9);
-            //delay(200);
+            delay(50);
+            mySwitch.setRepeatTransmit(4);
             RF_Send(Units);
-            //delay(200);
+            delay(50);
     break;
-    case 2:
-            vw_send((uint8_t *)RF_TX_Buf, sizeof(RF_TX_Buf));
-            vw_wait_tx();
-    break;
-  }
+    digitalWrite(TX_LED_pin, LOW);
+  }  
 }
 //---------------------------------------------------------------------------
 void CRC_8(unsigned char b){
@@ -135,29 +150,22 @@ void CRC_8(unsigned char b){
 }
 //---------------------------------------------------------------------------
 void setup() {
-  pinMode(TX_RX_pin,     OUTPUT);  //
-  digitalWrite(TX_RX_pin, HIGH) ;  //
-
-  //Wirtual wire setup
-  vw_set_tx_pin(RF_pin);
-  vw_set_rx_pin(-1);
-  vw_set_ptt_pin(-1);
-  vw_setup(3000);	           // Bits per sec
-  vw_rx_stop();
-
   // Transmitter is connected to Arduino Pin
   mySwitch.enableTransmit(RF_pin);
   //Set pulse length.
-  mySwitch.setPulseLength(340);
-  mySwitch.setRepeatTransmit(4);
+  mySwitch.setPulseLength(215);
+  mySwitch.setRepeatTransmit(10);
 
   for (i_=0; i_<Prot_C; i_++ ) pinMode(Prot_pin[i_], INPUT);     // Set up the input on the receiver to select the protocol jumpers
   for (i_=0; i_<Prot_C; i_++ ) digitalWrite(Prot_pin[i_], HIGH); // Include internal pull-up resistors to +5 V
 
   Serial.begin(USART_USB_RATE);
+  
+  pinMode(TX_LED_pin ,  OUTPUT);  
 }
 //---------------------------------------------------------------------------
 void loop() {
   if (Serial.available() > 0) Rx_Decode();
 }
 //---------------------------------------------------------------------------
+
