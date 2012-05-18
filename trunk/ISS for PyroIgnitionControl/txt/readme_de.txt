@@ -1,5 +1,5 @@
 Die offizielle Webseite der Software: 
-http://blamaster.bplaced.net/Joomla
+http://software.fx-firingsystem.de/
 
 Der Autor des Programms:
 Yannic Wilkening (yannic.wilkening@fx-firingsystem.de)
