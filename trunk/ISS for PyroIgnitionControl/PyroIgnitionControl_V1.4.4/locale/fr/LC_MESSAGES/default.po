@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PyroIgnitionControl EN 1.0\n"
+"POT-Creation-Date: 2012-04-09 23:21\n"
+"PO-Revision-Date: 2012-09-10 11:51+0200\n"
+"Last-Translator: Gordeev Andrey <gordeev@openpyro.com>\n"
+"Language-Team: www.openpyro.com <gordeev@openpyro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Basepath: C:\\openpyro\\ISS for PyroIgnitionControl\\PyroIgnitionControl_V1.4.3\\locale\\ru\\LC_MESSAGESX\n"
+"X-Poedit-SearchPath-0: C:openpyro\\ISS for PyroIgnitionControl\\PyroIgnitionControl_V1.4.3\\locale\\ru\\LC_MESSAGES\n"
+
+msgid " ms"
+msgstr " msec"
+
+msgid ""
+"\"AAAA\" /*\n"
+"\"BBBB\" /*\n"
+"\"CCDD\" /*\n"
+"\"EEEE\" /*\n"
+"* * * * \n"
+"!AVBHCVDVEV!\n"
+"#lbl2:C:C{}[16,13]#\n"
+"#jvld1:B:N{}[30,31]#\n"
+"#jvld2:B:N{}[30,31]#\n"
+"#jvld3:B:N{}[30,31]#\n"
+"#jvld4:B:N{}[30,31]#\n"
+"#jvld5:B:N{}[30,31]#\n"
+"#jvld6:B:N{}[30,31]#\n"
+"#jvld7:B:N{}[30,31]#\n"
+"#jvld8:B:N{}[30,31]#\n"
+"#jvld9:B:N{}[30,31]#\n"
+"#jvld10:B:N{}[30,31]#\n"
+"#jvld11:B:N{}[30,31]#\n"
+"#jvld12:B:N{}[30,31]#\n"
+"#jvld13:B:N{}[30,31]#\n"
+"#jvld14:B:N{}[30,31]#\n"
+"#jvld15:B:N{}[30,31]#\n"
+"#lbl4:E:C{}[16,13]#\n"
+"#lbl3:D:C{}[16,13]#\n"
+"#lbl1:A:C{}[16,13]#\n"
+msgstr ""
+"\"AAAA\" /*\n"
+"\"BBBB\" /*\n"
+"\"CCDD\" /*\n"
+"\"EEEE\" /*\n"
+"* * * * \n"
+"!AVBHCVDVEV!\n"
+"#lbl1:A:C{}[16,13]#\n"
+"#lbl2:C:C{}[16,13]#\n"
+"#jvld1:B:N{}[30,31]#\n"
+"#jvld2:B:N{}[30,31]#\n"
+"#jvld3:B:N{}[30,31]#\n"
+"#jvld4:B:N{}[30,31]#\n"
+"#jvld5:B:N{}[30,31]#\n"
+"#jvld6:B:N{}[30,31]#\n"
+"#jvld7:B:N{}[30,31]#\n"
+"#jvld8:B:N{}[30,31]#\n"
+"#jvld9:B:N{}[30,31]#\n"
+"#jvld10:B:N{}[30,31]#\n"
+"#jvld11:B:N{}[30,31]#\n"
+"#jvld12:B:N{}[30,31]#\n"
+"#jvld13:B:N{}[30,31]#\n"
+"#jvld14:B:N{}[30,31]#\n"
+"#jvld15:B:N{}[30,31]#\n"
+"#lbl4:E:C{}[16,13]#\n"
+"#lbl3:D:C{}[16,13]#\n"
+
+msgid "%d"
+msgstr "%d"
+
+msgid "%s potentielle Fehler gefunden !"
+msgstr "%s Erreurs éventuelles trouvées !"
+
+msgid "&Cancel"
+msgstr "&Ignorer"
+
+msgid "&Export"
+msgstr "&Exporter"
+
+msgid "&P"
+msgstr "&P"
+
+msgid "&View only"
+msgstr "&Visualisation uniquement"
+
+msgid "(*.csv) CSV Datei|*.csv"
+msgstr "(*.csv) CSV Dossier|*.csv"
+
+msgid "+ Bodenelement"
+msgstr "+ Elément au sol"
+
+msgid "+ Cake"
+msgstr "+ Cake"
+
+msgid "+ Fächer 5x"
+msgstr "+ Fan 5x"
+
+msgid "+ Fächer 6x"
+msgstr "+ Fan 6x"
+
+msgid "+ Fächer 8x "
+msgstr "+ Fan 8x"
+
+msgid "+ Rack 10x 50mm "
+msgstr "+ Rack 10x 50mm "
+
+msgid "+ Rack 10x 65mm"
+msgstr "+ Rack 10x 65mm"
+
+msgid "+ Rack 5x 100mm"
+msgstr "+ Rack 5x 100mm"
+
+msgid "+ Rack 5x 125mm"
+msgstr "+ Rack 5x 125mm"
+
+msgid "+ Rack 5x 75mm"
+msgstr "+ Rack 5x 75mm"
+
+msgid ".pdf|*.pdf"
+msgstr ".pdf|*.pdf"
+
+msgid "1 sek"
+msgstr "1 sec"
+
+msgid "10 sek"
+msgstr "10 sec"
+
+msgid "15 sek"
+msgstr "15 sec"
+
+msgid "20 sek"
+msgstr "20 sec"
+
+msgid "200 ms"
+msgstr "200 msec"
+
+msgid "30 sek"
+msgstr "30 sec"
+
+msgid "5 sek"
+msgstr "5 sec"
+
+msgid "500 ms"
+msgstr "500 msec"
+
+msgid "60 sek"
+msgstr "60 sec"
+
+msgid "Aktivieren"
+msgstr "Activer"
+
+msgid "All supporded Filetypes|*.WAV;*.MP3;*.MP2;*.MP1;"
+msgstr "Types de fichiers pris en charge|*.WAV;*.MP3;*.MP2;*.MP1;"
+
+msgid "All supporded Filetypes|*.zpl;*.hfl;*.rl;"
+msgstr "Types de fichiers pris en charge|*.zpl;*.hfl;*.rl;"
+
+msgid "Allgemein"
+msgstr "Général"
+
+msgid "Anzahl der Cues: "
+msgstr "Nombre de lignes: "
+
+msgid "Anzahl verwendeter Module: "
+msgstr "Nombre de satellites utilisés: "
+
+msgid "Anzahl zu setzender Kanäle"
+msgstr "Définir le nombre de canaux "
+
+msgid "Anzeige der Zeit seit erster Cueauslösung"
+msgstr "Afficher le temps écoulé depuis la première mise à feu"
+
+msgid "Anzeige der vergangenen Zeit nach Cueauslösung"
+msgstr "Afficher le temps écoulé depuis la dernière mise à feu"
+
+msgid "Anzeige:"
+msgstr "Afficher:"
+
+msgid "Arial,Helvetica"
+msgstr "Arial,Helvetica"
+
+msgid "Auf Doppelbelegung prüfen"
+msgstr "Vérifiez si la même sortie est utilisée deux fois"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Bearbeiten:"
+msgstr "Modifier:"
+
+msgid "Beschreibung"
+msgstr "Description"
+
+msgid "Beschreibung:"
+msgstr "Description:"
+
+msgid "Bezeichnung"
+msgstr "Description"
+
+msgid "Bezeichnung:"
+msgstr "Description:"
+
+msgid "Bitte Anfangskanal eingeben"
+msgstr "Entrez le canal initial"
+
+msgid "Bitte Anzahl der Kanäle eingeben"
+msgstr "Entrez le nombre de canaux"
+
+msgid "Bitte Anzahl der Plätze angeben"
+msgstr "Entrez le nombre d'élements"
+
+msgid "Bitte Position eingeben"
+msgstr "Entrez la position"
+
+msgid "Bitte Slave ID eingeben"
+msgstr "Entrez l'ID esclave"
+
+msgid "Bitte den gewünschte Winkel eingeben:"
+msgstr "Entrez un angle:"
+
+msgid "Bitte die gewünschte Rackbezeichnung eingeben:"
+msgstr "Entrez une description pour le rack:"
+
+msgid "CSV (Comma delimited)"
+msgstr "CSV (Séparés par des virgules)"
+
+msgid "CSV Import"
+msgstr "CSV Import"
+
+msgid "Cancel"
+msgstr "Ignorer"
+
+msgid "Colum-Zeile:"
+msgstr "Colonne-Ligne:"
+
+msgid "ComPort:"
+msgstr "Port Com:"
+
+msgid "ComPort: %s konnte nicht geöffnet werden ! Bitte korrigieren sie die Einstellungen"
+msgstr "Impossible d'ouvrir le Port Com %s ! Vérifiez les paramètres"
+
+msgid "Connect"
+msgstr "Connecter"
+
+msgid "Created:"
+msgstr "Création:"
+
+msgid "Csv-Import: "
+msgstr "Csv-Import: "
+
+msgid "Cue"
+msgstr "Ligne"
+
+msgid "Cue 1"
+msgstr "Ligne 1"
+
+msgid "Cue 1 - 8 "
+msgstr "Ligne 1 - 8 "
+
+msgid "Cue 10"
+msgstr "Ligne 10"
+
+msgid "Cue 11"
+msgstr "Ligne 11"
+
+msgid "Cue 12"
+msgstr "Ligne 12"
+
+msgid "Cue 13"
+msgstr "Ligne 13"
+
+msgid "Cue 14"
+msgstr "Ligne 14"
+
+msgid "Cue 15"
+msgstr "Ligne 15"
+
+msgid "Cue 16"
+msgstr "Ligne 16"
+
+msgid "Cue 17"
+msgstr "Ligne 17"
+
+msgid "Cue 17 - 24 "
+msgstr "Ligne 17 - 24 "
+
+msgid "Cue 18"
+msgstr "Ligne 18"
+
+msgid "Cue 19"
+msgstr "Ligne 19"
+
+msgid "Cue 2"
+msgstr "Ligne 2"
+
+msgid "Cue 20"
+msgstr "Ligne 20"
+
+msgid "Cue 21"
+msgstr "Ligne 21"
+
+msgid "Cue 22"
+msgstr "Ligne 22"
+
+msgid "Cue 23"
+msgstr "Ligne 23"
+
+msgid "Cue 24"
+msgstr "Ligne 24"
+
+msgid "Cue 25"
+msgstr "Ligne 25"
+
+msgid "Cue 25 - 32"
+msgstr "Ligne 25 - 32"
+
+msgid "Cue 26"
+msgstr "Ligne 26"
+
+msgid "Cue 27"
+msgstr "Ligne 27"
+
+msgid "Cue 28"
+msgstr "Ligne 28"
+
+msgid "Cue 29"
+msgstr "Ligne 29"
+
+msgid "Cue 3"
+msgstr "Ligne 3"
+
+msgid "Cue 30"
+msgstr "Ligne 30"
+
+msgid "Cue 31"
+msgstr "Ligne 31"
+
+msgid "Cue 32"
+msgstr "Ligne 32"
+
+msgid "Cue 4"
+msgstr "Ligne 4"
+
+msgid "Cue 5"
+msgstr "Ligne 5"
+
+msgid "Cue 6"
+msgstr "Ligne 6"
+
+msgid "Cue 7"
+msgstr "Ligne 7"
+
+msgid "Cue 8"
+msgstr "Ligne 8"
+
+msgid "Cue 9"
+msgstr "Ligne 9"
+
+msgid "Cue 9 - 16 "
+msgstr "Ligne 9 - 16 "
+
+msgid "Cue Nr."
+msgstr "Ligne N°."
+
+msgid "Cue bearbeiten:"
+msgstr "Editer Ligne:"
+
+msgid "Cue hinzufügen:"
+msgstr "Ajouter Ligne:"
+
+msgid "Cue:"
+msgstr "Ligne:"
+
+msgid "Cue: "
+msgstr "Ligne: "
+
+msgid "CueList"
+msgstr "Liste des Lignes"
+
+msgid "Cuelinien anzeigen"
+msgstr "Montrer les Lignes"
+
+msgid "Cues:"
+msgstr "Lignes:"
+
+msgid "Das Projekt existiert bereits. Möchten Sie die Dateien überschrieben ?"
+msgstr "Le projet existe déjà, voulez-vous écraser l'ancien?"
+
+msgid "Data Interchange Format"
+msgstr "Format des données d'échange"
+
+msgid "Data was copied to clipboard!"
+msgstr "Les données ont été copiées dans le presse-papiers!"
+
+msgid "Datei"
+msgstr "Fichier"
+
+msgid "Datei konnte nicht geöffnet werden"
+msgstr "Erreur à l'ouverture du fichier"
+
+msgid "Datenbank"
+msgstr "Base de données"
+
+msgid "Datenbank:"
+msgstr "Base de données:"
+
+msgid "Datenbankeintrag"
+msgstr "Entrée de base de données"
+
+msgid "Dauer"
+msgstr "Durée"
+
+msgid "Dauer:"
+msgstr "Durée:"
+
+msgid "Der Cue %s wurde in Part %s bereits belegt !"
+msgstr "La ligne %s est déjà utilisée dans le satellite %s !"
+
+msgid "Der Kanal %s ist auf Slave %s doppelt belegt !"
+msgstr "La sortie %s est déjà utilisée pour le satellite %s !"
+
+msgid "Der Kanal %s wurde für Slave %s bereits belegt !"
+msgstr "La sortie  %s et le satellite %s sont utilisés deux fois !"
+
+msgid "Die Datei existiert bereits möchten sie die Datei überschrieben ?"
+msgstr "Le fichier existe déjà, voulez-vous écraser l'ancien?"
+
+msgid "Dunkelstellen anzeigen"
+msgstr "Montrer les zones sombres"
+
+msgid "E&xport formats:"
+msgstr "Formats d'E&xport:"
+
+msgid "Easy Fire"
+msgstr "Tir Simple"
+
+msgid "Effekt"
+msgstr "Effet"
+
+msgid "Effekt entfernen"
+msgstr "Retirer l'effet"
+
+msgid "Effekt:"
+msgstr "Effet:"
+
+msgid "Effektbeginn erhöhen"
+msgstr "Augmenter le début d'effet"
+
+msgid "Effektbeginn erhöhen um x"
+msgstr "Augmenter le début d'effet par x"
+
+msgid "Effektbeginn verringern"
+msgstr "Diminuer le début d'effet"
+
+msgid "Effektbeginn verringern um x"
+msgstr "Diminuer le début d'effet par x"
+
+msgid "Effektbeginn:"
+msgstr "Début d'effet:"
+
+msgid "Effektdatenbank"
+msgstr "Base de données d'effet"
+
+msgid "Effektdauer:"
+msgstr "Durée:"
+
+msgid "Ein oder mehrere Elemente in der Zündliste entsprechen nicht dem korrekten Format"
+msgstr "Un ou plusieurs éléments dans la liste n'ont pas le format correct"
+
+msgid "Einstellungen"
+msgstr "Options"
+
+msgid "Einstellungen: "
+msgstr "Options:"
+
+msgid "Enter password:"
+msgstr "Entrer le mot de passe:"
+
+msgid "Erhöhen"
+msgstr "Augmenter"
+
+msgid "Es muss mindestens der Effektbeginn angegeben werden"
+msgstr "Vous devez sélectionner au moins le début d'effet"
+
+msgid "Es wurde kein Zündplugin gefunden"
+msgstr "Aucun plugin d'allumage trouvé"
+
+msgid "Excel Export"
+msgstr "Export Excel"
+
+msgid "Excel Files"
+msgstr "Fichiers Excel"
+
+msgid "Export &to file"
+msgstr "Expor&ter vers un fichier"
+
+msgid "Exporting DataSet"
+msgstr "Exportation des paramètres"
+
+msgid "Falsche Plugin Version ! Benötigte Version %s"
+msgstr "Mauvaise version de plugin ! Vous devez utiliser la version %s"
+
+msgid "Falsches Passwort"
+msgstr "Mot de passe incorrect"
+
+msgid "False"
+msgstr "Faux"
+
+msgid "Farben: "
+msgstr "Couleur:"
+
+msgid "Fehler beim auslesen der Datei !"
+msgstr "Impossible de lire le fichier !"
+
+msgid "Fehler beim laden der Datei \"%s\""
+msgstr "Erreur à l'ouverture du fichier \"%s\""
+
+msgid "Fehler beim speichern der Datei \"%s\""
+msgstr "Impossible d'enregistrer le fichier \"%s\""
+
+msgid "Fehler beim suchen der Colums !"
+msgstr "Échec de la recherche des colonnes !"
+
+msgid "Felder suchen"
+msgstr "Champs de recherche"
+
+msgid "Fenster"
+msgstr "Fenêtre"
+
+msgid "Fenster anordnen"
+msgstr "Organiser les fenêtres"
+
+msgid "Fenster: "
+msgstr "Fenêtre:"
+
+msgid "FireNextCue"
+msgstr "Mise à feu ligne suivante"
+
+msgid "Fächer hinzufügen"
+msgstr "Ajouter fan"
+
+msgid "Gemessen an der letzten Zündung"
+msgstr "Calculé par le dernier allumage"
+
+msgid "Geringster Abstand zwischen zwei Zündungen: "
+msgstr "Ecart minimum entre deux tirs: "
+
+msgid "Geschossene Cues markieren"
+msgstr "Marquer les lignes tirées"
+
+msgid "Globale Verzögerung: "
+msgstr "Retard global: "
+
+msgid "Globale Verzögerung: (S.MS)"
+msgstr "Retard global: (S.MS)"
+
+msgid "Größe:"
+msgstr "Taille:"
+
+msgid "HTML Documents"
+msgstr "HTML Documents"
+
+msgid "Handfire"
+msgstr "Mise à feu manuelle"
+
+msgid "Handfire Listenoptionen: "
+msgstr "Liste d'options mise à feu manuelle"
+
+msgid "Hersteller"
+msgstr "Fabricant"
+
+msgid "Hersteller:"
+msgstr "Fabricant:"
+
+msgid "Hinweis"
+msgstr "Indication"
+
+msgid "Hinweis: Änderungen werden erst beim Neustart der Software aktiv !"
+msgstr "Attention: Les modifications seront actives lors du redémarrage du logiciel!"
+
+msgid "Hochformat"
+msgstr "Portrait"
+
+msgid "Id muss zwischen 1 und 30 liegen"
+msgstr "Entrez un id entre 1 et 30"
+
+msgid "Importfelder: "
+msgstr "Champs d'importation:"
+
+msgid "In Show springen"
+msgstr "Avancer dans le show"
+
+msgid "KNr: --"
+msgstr "Canal: --"
+
+msgid "Kaliber"
+msgstr "Calibre"
+
+msgid "Kaliber:"
+msgstr "Calibre:"
+
+msgid "Kanal muss zwischen 1 und 99 liegen"
+msgstr " Entrez un canal entre 1 et 99"
+
+msgid "Kanal:"
+msgstr "Canal:"
+
+msgid "Kanal: "
+msgstr "Canal:"
+
+msgid "Kanalnummern setzen"
+msgstr "Définir N° de canal"
+
+msgid "Kategorie"
+msgstr "Categorie"
+
+msgid "Kategorie:"
+msgstr "Categorie:"
+
+msgid "Kein Eintrag ausgewählt !"
+msgstr "Pas de ligne selectionnée !"
+
+msgid "Keine gültige Zahl"
+msgstr "Numéro non valide"
+
+msgid "Konstant gemessen an den eingetragenen Zeiten"
+msgstr "Calculé en permanence par la liste des temps"
+
+msgid "Linienhöhe der Cuelines in %"
+msgstr "Hauteur des lignes de Ligne (%)"
+
+msgid "Liste importieren"
+msgstr "Importer la liste"
+
+msgid "Listenoptionen: "
+msgstr "Liste des options"
+
+msgid "Löschen"
+msgstr "Effacer"
+
+msgid "Modus:"
+msgstr "Mode:"
+
+msgid "Musik starten wenn Cue1 in Part1 gedrückt wurde"
+msgstr "Démarrer la musique lorsque la ligne 1 est pressée dans la partie1"
+
+msgid "Musik: "
+msgstr "Musique:"
+
+msgid "Möchten Sie die Änderungen im Projekt speichern ?"
+msgstr "Enregistrer les modifications dans le projet ?"
+
+msgid "Mörser:"
+msgstr "Mortier:"
+
+msgid "Negative Zündzeiten nicht möglich"
+msgstr "Valeurs négatives d'allumage non autorisées"
+
+msgid "Neues Projekt"
+msgstr "Nouveau projet"
+
+msgid "Nicht anzeigen"
+msgstr "Masquer"
+
+msgid "Nicht mit der Anlage verbunden ! Soll versucht werden die Verbindung herzustellen ?"
+msgstr "Pas connecté au système d'allumage ! Le logiciel doit il tenter de se connecter ?"
+
+msgid "Nr."
+msgstr "N°"
+
+msgid "Nur manuelle Verbindung (Einstellungen -> Connect)"
+msgstr "Connection manuelle (Options -> Connection)"
+
+msgid "Nächste Zündung: "
+msgstr "Allumage suivant: "
+
+msgid "Nächste Zündung: 00:00.000"
+msgstr "Allumage suivant: 00:00,000"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Optionen"
+msgstr "Options"
+
+msgid "Output "
+msgstr "Sortie "
+
+msgid "Part 1"
+msgstr "Part 1"
+
+msgid "Part 2"
+msgstr "Part 2"
+
+msgid "Part 3"
+msgstr "Part 3"
+
+msgid "Part: "
+msgstr "Part: "
+
+msgid "Passwort eingeben:"
+msgstr "Entrer le mot de passe: "
+
+msgid "Passwort nutzen"
+msgstr "Utilisation d'un mot de passe"
+
+msgid "Passwort stimmt nicht überein ! Bitte erneut eingeben"
+msgstr "Le mot de passe entré n'est pas identique ! Essayez à nouveau"
+
+msgid "Passwort wiederholen:"
+msgstr "Répétez  le mot de passe:"
+
+msgid "Passwortfeld darf nicht leer bleiben !"
+msgstr " Le champ Mot de passe ne peut pas être vide !"
+
+msgid "Pdf Export"
+msgstr "Pdf Export"
+
+msgid "Platz bereits belegt !"
+msgstr "L'espace déjà occupé !"
+
+msgid "Play/Pause"
+msgstr "Play/Pause"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Position bereits gesetzt"
+msgstr "Position déjà occupée"
+
+msgid "Position setzen"
+msgstr "Définir la position"
+
+msgid "Position:"
+msgstr "Position:"
+
+msgid "Processing..."
+msgstr "Traitement..."
+
+msgid "Programm beenden"
+msgstr "Quitter le programme"
+
+msgid "Programm kann nicht beendet werden solange die Software scharfgeschaltet ist !"
+msgstr "Le programme ne peut être fermé tant que le logiciel est armé !"
+
+msgid "Projekt laden"
+msgstr "Charger un projet"
+
+msgid "Projekt speichern"
+msgstr "Sauvegarder le projet"
+
+msgid "Projekt speichern unter"
+msgstr "Sauvegarder le projet sous"
+
+msgid "Querformat"
+msgstr "Paysage"
+
+msgid "Rack Organizer"
+msgstr "Organisateur de rack"
+
+msgid "Rack einfügen"
+msgstr "Support de Rack"
+
+msgid "Rack hinzufügen"
+msgstr "Ajouter un rack"
+
+msgid "Racknummer setzen"
+msgstr "Définir N° de Rack"
+
+msgid "Racks verwalten"
+msgstr "Gérer les Racks"
+
+msgid "Reserve: "
+msgstr "Secours: "
+
+msgid "Rich Text Format"
+msgstr "Rich Text Format"
+
+msgid "SID: --"
+msgstr "Satellite: --"
+
+msgid "SYLK Files"
+msgstr "Fichiers SYLK"
+
+msgid "Save document"
+msgstr "Sauvegarder le document"
+
+msgid "Selectline:"
+msgstr "Sélectionnez Ligne:"
+
+msgid "Sequenz hinzufügen"
+msgstr "Ajouter une séquence"
+
+msgid "Set Cue:"
+msgstr "Définir Ligne:"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "Show Nr."
+msgstr "Show N°"
+
+msgid "Show Part:"
+msgstr "Show Part:"
+
+msgid "Show anhalten"
+msgstr "Interrompre le show"
+
+msgid "Show fortsetzen"
+msgstr "Continuer le show"
+
+msgid "Show überprüfen"
+msgstr "Vérifier le Show"
+
+msgid "Showlänge: "
+msgstr "Durée: "
+
+msgid "Showlänge: 00:00.000"
+msgstr "Durée: 00:00,000"
+
+msgid "Sicherheitshinweis"
+msgstr "Alerte de sécurité"
+
+msgid "Sicherheitspasswort"
+msgstr "Mot de passe de sécurité"
+
+msgid "Sicherheitspasswort: "
+msgstr "Mot de passe de sécurité"
+
+msgid "Sie müssen erst einen Song laden"
+msgstr "Vous devez d'abord charger un morceau"
+
+msgid "Slave"
+msgstr "Satellite"
+
+msgid "Slave ID:"
+msgstr "ID Satellite:"
+
+msgid "Slave IDs setzen"
+msgstr "Définir l'ID du Satellite"
+
+msgid "Slave:"
+msgstr "Satellite:"
+
+msgid "Software scharfschalten"
+msgstr "Armement du logiciel"
+
+msgid "Sonstiges: "
+msgstr "Autre:"
+
+msgid "Spectrum"
+msgstr "Spectre Audio"
+
+msgid "Spectrum:"
+msgstr "Spectre Audio:"
+
+msgid "Speichern"
+msgstr "Sauvegarder"
+
+msgid "Sprache auswählen"
+msgstr "Selectionner la langue"
+
+msgid "St."
+msgstr "St."
+
+msgid "Start Show"
+msgstr "Démarrer le Show"
+
+msgid "Start Show: "
+msgstr "Démarrer le Show: "
+
+msgid "Status: ComPort %s konnte nicht geöffnet werden !"
+msgstr "Statut: le port COM %s n'a pas pu être ouvert !"
+
+msgid "Status: Mit ComPort %s verbunden"
+msgstr "Statut: Connecté au port COM %s "
+
+msgid "Status: Nicht verbunden"
+msgstr "Statut: Non connecté"
+
+msgid "Step Cues:"
+msgstr "Etape Lignes:"
+
+msgid "Steppautomatik:"
+msgstr "Etape automatique:"
+
+msgid "Stepper setzen"
+msgstr "Définir séquence"
+
+msgid "Steppzeit eingeben"
+msgstr "Définir le délai entre les séquences"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Suche: "
+msgstr "Rechercher:"
+
+msgid "Text (Tab delimited)"
+msgstr "Text (Tab delimited)"
+
+msgid "Text Files"
+msgstr "Fichiers texte"
+
+msgid "Time-Marks"
+msgstr "Graduations de temps"
+
+msgid "Timeline:"
+msgstr "Chronologie:"
+
+msgid "Timemarks:"
+msgstr "Graduations de temps:"
+
+msgid "Trennzeichen:"
+msgstr "Délimiteur:"
+
+msgid "True"
+msgstr "Vrai"
+
+msgid "Verbindungsoptionen: "
+msgstr "Options de connexion:"
+
+msgid "Verbindungsversuch beim scharfschalten der Software"
+msgstr "Connexion à l'armement du logiciel"
+
+msgid "Vergangene Zeit:"
+msgstr "Temps écoulé: "
+
+msgid "Vergangene Zeit: "
+msgstr "Temps écoulé: "
+
+msgid "Vergangene Zeit: 00:00.000"
+msgstr "Temps écoulé 00:00.000"
+
+msgid "Verringern"
+msgstr "Diminuer"
+
+msgid "Verteiler ID:"
+msgstr "ID Satellite:"
+
+msgid "Verzögerung"
+msgstr "Retard"
+
+msgid "Verzögerung:"
+msgstr "Retard:"
+
+msgid "Volume:"
+msgstr "Volume:"
+
+msgid "Winkel"
+msgstr "Angle"
+
+msgid "Winkel setzen"
+msgstr "Définir un angle"
+
+msgid "Winkel:"
+msgstr "Angle:"
+
+msgid "Word Documents"
+msgstr "Documents Word"
+
+msgid "Zeige Show Informationen"
+msgstr "Afficher les informations du Show"
+
+msgid "Zeit: +x"
+msgstr "Temps: +x"
+
+msgid "Zoom In"
+msgstr "Zoom In"
+
+msgid "Zoom Out"
+msgstr "Zoom Out"
+
+msgid "Zu Position wechseln"
+msgstr "Atteindre position"
+
+msgid "Zu viele Kanäle für einen Slave ! (maximal 99)"
+msgstr "Trop de canaux pour un Satellite ! (maximum 99)"
+
+msgid "Zurücksetzen"
+msgstr "Reset"
+
+msgid "Zündanlage"
+msgstr "Allumage"
+
+msgid "Zündzeitpunkt anzeigen:"
+msgstr "Montrer le temps d'allumage:"
+
+msgid "Zündzeitpunkt:"
+msgstr "Top allumage:"
+
+msgid "dd.MM.yyyy"
+msgstr "dd.MM.yyyy"
+
+msgid "hh:mm"
+msgstr "hh:mm"
+
+msgid "hh:mm dd.MM.yyyy"
+msgstr "hh:mm dd.MM.yyyy"
+
+msgid "Übersicht"
+msgstr "Aperçu"
+
+msgid "PyroIgnitionControl V1.4.2"
+msgstr "PyroIgnitionControl EN V1.4.3 (Translation of team www.OpenPyro.com)"
+
